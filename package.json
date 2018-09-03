@@ -1,0 +1,30 @@
+{
+  "name": "simple-http-assignment-start",
+  "version": "1.0.0",
+  "engines": {
+    "node": "10.9.0",
+    "npm": "6.2.0"
+  },
+  "description": "IGME-430 Class Exercise",
+  "main": "src/server.js",
+  "scripts": {
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests complete\"",
+    "start": "node ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ct-martin/Simple-HTTP-Assignment-Start.git"
+  },
+  "author": "https://ctmartin.me/",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ct-martin/Simple-HTTP-Assignment-Start/issues"
+  },
+  "homepage": "https://github.com/ct-martin/Simple-HTTP-Assignment-Start#readme",
+  "devDependencies": {
+    "eslint": "^5.5.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0"
+  }
+}
